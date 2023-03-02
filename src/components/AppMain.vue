@@ -23,6 +23,8 @@ export default {
             })
                 .then(function (response) {
                     console.log(response.data.results.data);
+                    self.projectsList = response.data.results.data;
+
 
                 })
                 .catch(function (error) {
@@ -48,6 +50,14 @@ export default {
 
 <template>
     <h1>Welcome back vue</h1>
+    <div>
+        <ul v-for="project in projectsList">
+            <li>
+                {{ project.title }}
+
+            </li>
+        </ul>
+    </div>
 </template>
 
 <style></style>
