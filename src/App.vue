@@ -14,6 +14,4 @@ export default {
   <AppMain />
 </template>
 
-<style lang="scss">
-@use './styles/general.scss' as *;
-</style>
+<style lang="scss"></style>
