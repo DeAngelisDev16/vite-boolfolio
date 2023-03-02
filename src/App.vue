@@ -14,4 +14,6 @@ export default {
   <AppMain />
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+@use 'bootstrap/scss/bootstrap' as *;
+</style>

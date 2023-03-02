@@ -49,15 +49,20 @@ export default {
 </script>
 
 <template>
-    <h1>Welcome back vue</h1>
-    <div>
-        <ul v-for="project in projectsList">
-            <li>
-                {{ project.title }}
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-4">
+                <div class="card p-3" v-for="project in projectsList">
+                    <h2>{{ project.title }}</h2>
+                    <p>{{ project.description }}</p>
 
-            </li>
-        </ul>
+                </div>
+            </div>
+
+
+
+        </div>
     </div>
 </template>
 
-<style></style>
+<style scoped></style>
