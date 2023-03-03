@@ -54,11 +54,9 @@ export default {
     <div class="container">
         <div class="row g-3">
             <div class="col-4">
-                <div class="card p-3" v-for="project in projectsList">
-                    <h2>{{ project.title }}</h2>
-                    <p>{{ project.description }}</p>
 
-                </div>
+                <ProjectCard v-for="project in projectsList" :projectTitle="project.title"
+                    :projectDescription="project.description" />
             </div>
 
 

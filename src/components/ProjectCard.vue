@@ -4,6 +4,12 @@
 
 export default {
     name: 'ProjectCard',
+
+    props: [
+        'projectTitle',
+        'projectDescription'
+
+    ],
     data() {
         return {
 
@@ -15,17 +21,24 @@ export default {
     },
 
 }
-
-
-
-
-
-
-
-
-
 </script>
 
-<template></template>
+<template>
+    <div class="project-element">
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.description }}</p>
+    </div>
+</template>
+
+
+ 
+
+
+
+
 
 <style scoped></style>
+
+
+
+
