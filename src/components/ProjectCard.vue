@@ -25,8 +25,8 @@ export default {
 
 <template>
     <div class="project-element">
-        <h3>{{ project.title }}</h3>
-        <p>{{ project.description }}</p>
+        <h3>{{ projectTitle }}</h3>
+        <p>{{ projectDescription }}</p>
     </div>
 </template>
 
