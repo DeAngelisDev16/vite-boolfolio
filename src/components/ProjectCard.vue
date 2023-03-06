@@ -24,11 +24,11 @@ export default {
 </script>
 
 <template>
-    <!-- <div class="project-element">
-            <h3>{{ projectTitle }}</h3>
-            <p>{{ projectDescription }}</p>
+    <div class="project-element">
+        <h3>{{ projectTitle }}</h3>
+        <p>{{ projectDescription }}</p>
 
-        </div> -->
+    </div>
 </template>
 
 

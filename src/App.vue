@@ -1,20 +1,23 @@
 <script >
 import AppHeader from './components/AppHeader.vue';
+import ProjectIndex from './pages/ProjectIndex.vue';
 import AppMain from './components/AppMain.vue';
 
 export default {
   name: 'App',
   components: {
+    AppHeader,
     AppMain,
-    AppHeader
+    ProjectIndex
 
   }
 }
 </script>
 
 <template>
-  <AppMain />
   <AppHeader />
+  <!--  <ProjectIndex /> -->
+  <AppMain />
 </template>
 
 <style lang="scss">
