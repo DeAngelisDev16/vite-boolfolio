@@ -17,6 +17,8 @@ export default {
 
 </script>
 
-<template></template>
+<template>
+    <h1>HomePage</h1>
+</template>
 
 <style scoped></style>
