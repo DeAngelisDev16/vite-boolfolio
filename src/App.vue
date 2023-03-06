@@ -1,7 +1,7 @@
 <script >
 import AppHeader from './components/AppHeader.vue';
-import ProjectIndex from './pages/ProjectIndex.vue';
 import AppMain from './components/AppMain.vue';
+
 
 export default {
   name: 'App',
@@ -16,7 +16,6 @@ export default {
 
 <template>
   <AppHeader />
-  <!--  <ProjectIndex /> -->
   <AppMain />
 </template>
 
