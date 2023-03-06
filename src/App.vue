@@ -1,6 +1,7 @@
 <script >
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
+import ProjectIndex from './pages/ProjectIndex.vue'
 
 
 export default {
@@ -10,6 +11,7 @@ export default {
     AppMain,
     ProjectIndex
 
+
   }
 }
 </script>
@@ -17,6 +19,7 @@ export default {
 <template>
   <AppHeader />
   <AppMain />
+  <ProjectIndex />
 </template>
 
 <style lang="scss">
