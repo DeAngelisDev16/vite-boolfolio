@@ -21,20 +21,20 @@ export default {
     <div class="container-fluid">
         <ul>
             <li>
-                <router-link :to="{ name: 'home' }">
+                <router-link :to="{ name: 'home' }" :class="this.$route.name === 'home' ? 'active : ''  ">
                     Home</router-link>
 
             </li>
 
             <li>
-                <router-link :to="{ name: 'AboutUs' }">
-                    About Us</router-link>
+                <router-link :to="{ name: 'about-us' }" :class="this.$route.name === 'about-us' ? 'active : ''  ">
+                    Home</router-link>
 
             </li>
 
             <li>
-                <router-link :to="{ name: 'ProjectIndex' }">
-                    Index</router-link>
+                <router-link :to="{ name: 'index' }" :class="this.$route.name === 'index' ? 'active : ''  ">
+                    Home</router-link>
 
             </li>
 
